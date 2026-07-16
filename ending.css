@@ -1,0 +1,176 @@
+*{
+
+    margin:0;
+
+    padding:0;
+
+    box-sizing:border-box;
+
+}
+
+body{
+
+    background:black;
+
+    color:white;
+
+    font-family:'Poppins',sans-serif;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    min-height:100vh;
+
+    text-align:center;
+
+    padding:30px;
+
+}
+
+.ending{
+
+    animation:fadeIn 2s ease;
+
+    max-width:700px;
+
+}
+
+h3{
+
+    color:#E50914;
+
+    letter-spacing:5px;
+
+    margin-bottom:20px;
+
+    font-family:'Cinzel',serif;
+
+}
+
+h1{
+
+    font-size:3rem;
+
+    margin-bottom:40px;
+
+    font-family:'Cinzel',serif;
+
+}
+
+p{
+
+    font-size:1.15rem;
+
+    line-height:2;
+
+    color:#dddddd;
+
+}
+
+.love{
+
+    margin-top:60px;
+
+    font-size:1.2rem;
+
+}
+
+.credits{
+
+    margin-top:70px;
+
+    color:#888;
+
+}
+
+.credits span{
+
+    color:#E50914;
+
+    letter-spacing:3px;
+
+    font-family:'Cinzel',serif;
+
+}
+
+@keyframes fadeIn{
+
+    from{
+
+        opacity:0;
+
+    }
+
+    to{
+
+        opacity:1;
+
+    }
+
+}
+
+@media(max-width:768px){
+
+    h1{
+
+        font-size:2rem;
+
+    }
+
+    p{
+
+        font-size:1rem;
+
+    }
+
+}
+
+.fade-out{
+
+    animation:fadeOut .8s forwards;
+
+}
+
+@keyframes fadeOut{
+
+    from{
+
+        opacity:1;
+
+    }
+
+    to{
+
+        opacity:0;
+
+    }
+
+}
+
+body{
+
+    animation:pageLoad .8s ease;
+}
+
+@keyframes pageLoad{
+
+    from{
+
+        opacity:0;
+
+        transform:translateY(15px);
+
+    }
+
+    to{
+
+        opacity:1;
+
+        transform:translateY(0);
+
+    }
+
+}
